@@ -15,7 +15,7 @@ function FilteredEventsPage(props) {
     return (
       <Fragment>
         <ErrorAlert>
-          <p>No events found for the chosen filter!</p>
+          <p>No levents found for the chosen filter!</p>
         </ErrorAlert>
         <div className="center">
           <Button link="/events">Show All Events</Button>
